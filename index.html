@@ -1,55 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="css/fonts.css">
-	<link rel="stylesheet" href="css/style.css">
-	<title>GA</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>GA</title>
 </head>
+
 <body>
-	<header>
-	  <div class="container">
-        <header class="creative-agency">
-            <a href="#" class="logo">akad.</a>
-            <nav class="header-nav"></nav>
-            <section class="header-intro">
-                <h3> we're</h3>
-                <h1> creative agency</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </section>
-            <!--.header-intro-->
-            <section class="header-main-info">
-                <img src="img/header-img1.jpg">
-                <h1>HISTORY OF AGENCY</h1>
-                <p>Porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi modi tempora incidunt ut labore.</p>
-                <button class="button header-button" type="button">read more</button>
-            </section> <!--header-main-info-->            
-        </header><!--.creative-agency-->
-    </div><!--.container-->
-	</header> 
+    <header>
+        <div class="container">
+            <header class="creative-agency"> <a href="#" class="logo">akad.</a>
+      <nav class="navbar">
+    <span class="open-slide">
+      <div href="#" onclick="openSlideMenu()">
+          <svg width="30" height="30">
+            <path d="M0,5 10,5" stroke="#000" stroke-width="1"/>
+            <path d="M0,14 5,14" stroke="#000" stroke-width="1"/>
+            <path d="M0,23 10,23" stroke="#000" stroke-width="1"/>
+        </svg>
+      </div>
+    </span>
 
-	<main>
-		<section class="history-of-agency">
+  </nav>
 
-		</section>
-
-		<section class="why-this-agency">
-
-		</section>
-
-		<section class="our-portfolio">
-
-		</section>
-
-		<section class="subscribe-form">
-
-		</section>
-	</main>
-
-	<footer>
-		
-	</footer>
+  <div id="side-menu" class="side-nav">
+    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </div>
+                <section class="header-intro">
+                    <h3> we're</h3>
+                    <h1> creative agency</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </section>
+                <!--.header-intro-->
+                <section class="header-main-info"> <img src="img/header-img1.jpg">
+                    <h1>HISTORY OF AGENCY</h1>
+                    <p>Porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi modi tempora incidunt ut labore.</p>
+                    <button class="button header-button" type="button">read more</button>
+                </section>
+                <!--header-main-info-->
+            </header>
+            <!--.creative-agency-->
+        </div>
+        <!--.container-->
+    </header>
+    <main>
+        <section class="history-of-agency"> </section>
+        <section class="why-this-agency"> </section>
+        <section class="our-portfolio"> </section>
+        <section class="subscribe-form"> </section>
+    </main>
+    <footer> </footer>
+   <script src="js/common.js"> </script>
 </body>
+
 </html>

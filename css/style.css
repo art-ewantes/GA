@@ -1,22 +1,63 @@
-*{
-	margin: 0;
-	padding: 0;
+* {
+    margin: 0;
+    padding: 0;
 }
-.container{
-	max-width: 1150px;
-	margin: 0 auto;
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
 }
+
 html,
-body{
-	height: 100%;
+body {
+    height: 100%;
 }
-body{
-	display: flex;
-	flex-direction: column;
+
+body {
+    display: flex;
+    flex-direction: column;
 }
-main{
-	flex: 1 0 auto;
+
+main {
+    flex: 1 0 auto;
 }
-footer{
-	flex: 0 0 auto;
+
+footer {
+    flex: 0 0 auto;
+}
+
+
+/*header styling*/
+
+header {
+    background: url(../img/header-bkg.jpg) no-repeat center center;
+
+}
+
+.logo {
+    font-family: MontserratBold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #60606e;
+    font-size:18px;
+}
+
+.header-intro h1 {
+    font-family: MontserratBold;
+    font-size: 48px;
+    text-transform: uppercase;
+    border: 10px solid #60606e;
+    color: #60606e;
+    width: fit-content;
+    padding: 10px 30px;
+}
+.header-main-info h1{
+   font-family: MontserratBold;
+    color: #60606e;
+}
+
+header p {
+    font-family: OpenSansRegular;
+    font-size: 16px;
+    color: #60606e;
 }

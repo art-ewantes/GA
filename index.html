@@ -7,58 +7,56 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/common.js"></script>
     <title>GA</title>
 </head>
 
 <body>
-    <header>
+    <header class="header-creative-agency">
         <div class="container">
-            <header class="creative-agency"> <a href="#" class="logo">akad.</a>
-      <nav class="navbar">
-    <span class="open-slide">
-      <div href="#" onclick="openSlideMenu()">
+            <!--=================================================== 
+				Container will be divided into 3 parts: header-nav  header-bg and header-history-of-agency
+				========================================================-->
+            <!--Start of header-nav -->
+            <section class="header-navigation"> <a href="#" class="header-logo">AKAD.</a>
+                <nav class="header-navbar"> <span class="open-slide">
+      <a href="#" onclick="openSlideMenu()">
           <svg width="30" height="30">
-            <path d="M0,5 10,5" stroke="#000" stroke-width="1"/>
-            <path d="M0,14 5,14" stroke="#000" stroke-width="1"/>
-            <path d="M0,23 10,23" stroke="#000" stroke-width="1"/>
+            <path d="M0,5 25,5" stroke="#60606e" stroke-width="1"/>
+            <path d="M0,14 10,14" stroke="#60606e" stroke-width="1"/>
+            <path d="M0,23 20,23" stroke="#60606e" stroke-width="1"/>
         </svg>
-      </div>
-    </span>
-
-  </nav>
-
-  <div id="side-menu" class="side-nav">
-    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Contact</a>
-  </div>
-                <section class="header-intro">
-                    <h3> we're</h3>
-                    <h1> creative agency</h1>
+      </a>
+    </span> </nav><!-- end of <nav>header-navbar-->
+                <div id="header-side-menu" class="header-side-nav">
+                 <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+                  <a href="#">Home</a> <a href="#">About</a> <a href="#">Services</a> <a href="#">Contact</a> </div>
+                <!--  <button></button>-->
+            </section><!--End of header-navigation -->
+            <!--Start of header-bg-->
+            <section class="header-bg">
+                <div class="header-background-wrapper">
+                    <h4>WE&#39;RE</h4> </div>
+                <div class="header-h1-border">
+                    <h1> CREATIVE AGENCY</h1> </div>
+                <div class="header-text-container">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </section>
-                <!--.header-intro-->
-                <section class="header-main-info"> <img src="img/header-img1.jpg">
-                    <h1>HISTORY OF AGENCY</h1>
+                </div>
+            </section><!--End of header-bg-->
+            <!--Start of header-history-->
+            <section class="header-history-of-agency"> <img class="header-image" src="images/header-img1.jpg" alt="">
+                <div class="header-wrapper-history-of-agency">
+                    <h2><span class="header-green-text-background">HIST</span>ORY OF AGENCY</h2>
                     <p>Porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi modi tempora incidunt ut labore.</p>
-                    <button class="button header-button" type="button">read more</button>
-                </section>
-                <!--header-main-info-->
-            </header>
-            <!--.creative-agency-->
+                    <button class="header-green-button">READ MORE</button>
+                </div>
+            </section>
+            <!--End of header-history-of-agency-->
         </div>
-        <!--.container-->
+        <!--End of div .container-->
     </header>
-    <main>
-        <section class="history-of-agency"> </section>
-        <section class="why-this-agency"> </section>
-        <section class="our-portfolio"> </section>
-        <section class="subscribe-form"> </section>
-    </main>
+    <!--End of Header-->
     <footer> </footer>
-   <script src="js/common.js"> </script>
 </body>
 
 </html>

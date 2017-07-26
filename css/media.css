@@ -1,0 +1,121 @@
+/*===================Media query for our-portfolio section ======================*/
+
+
+/*Media  1024-1200 px*/
+
+@media screen and (min-width:1024px) and (max-width:1200px) {
+	.our-portfolio-nav-menu h2 {
+		font-size: 25px;
+	}
+
+	.our-portfolio-photo-list {
+		justify-content: space-around;
+	}
+
+	.column-photo-list {
+		width: 30%;
+	}
+
+	.our-portfolio-photo-list img {
+		width: 100%;
+	}
+}
+
+
+
+/*Media 480-1023 px*/
+
+@media screen and (min-width:480px) and (max-width:1023px) {
+
+	.our-portfolio-nav-menu {
+		width: 25%;
+	}
+
+	.our-portfolio-nav-menu h2 {
+		font-size: 20px;
+	}
+
+	.our-portfolio-nav-menu ul li:hover {
+		background-color: rgb(123, 238, 199);
+		padding: 6px 3px;
+		transition: 0.1s;
+		border: none;
+	}
+
+	.our-portfolio-nav-menu ul li a:hover {
+		border: none;
+	}
+
+	.our-portfolio-photo-list {
+		justify-content: space-around;
+	}
+
+	.column-photo-list {
+		width: 30%;
+	}
+
+	.our-portfolio-photo-list img {
+		width: 100%;
+	}
+}
+
+
+
+/*Media 100-479 px*/
+
+@media screen and (min-width:100px) and (max-width:479px) {
+	/*Now the aside nav menu and photo list are positioned vertically.
+So nav menu is above photos*/
+	.our-portfolio-main-content {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	.our-portfolio-nav-menu {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.our-portfolio-nav-menu h2 {
+		font-size: 20px;
+		text-align: center;
+	}
+
+	.our-portfolio-nav-menu ul li {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		text-align: center;
+		margin-left: 0;
+		padding: 6px 3px;
+	}
+
+	.our-portfolio-nav-menu ul li:hover {
+		background-color: rgb(123, 238, 199);
+		padding: 6px 3px;
+		transition: 0.1s;
+		border: none;
+	}
+
+	.our-portfolio-select-all {
+		width: 10%;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+
+	.our-portfolio-photo-list {
+		justify-content: space-around;
+		width: 99%;
+	}
+
+	.column-photo-list {
+		width: 30%;
+	}
+
+	.our-portfolio-photo-list img {
+		width: 100%;
+	}
+}

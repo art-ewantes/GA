@@ -1,0 +1,129 @@
+/*====================Styles for our-portfolio-header section*/
+
+.our-portfolio {
+
+}
+
+.our-portfolio-header {
+	text-align: center;
+}
+
+.our-portfolio-h2,
+.our-portfolio-p1 {
+	margin-bottom: 30px;
+}
+
+.our-portfolio-h2 {
+	font-size: 30px;
+	font-family: "Montserrat";
+	color: rgb(96, 96, 110);
+	font-weight: bold;
+}
+
+.our-portfolio-green-text-background {
+	box-shadow: inset rgb(123, 238, 199) 0px -16px;
+	padding-bottom: 3px;
+}
+
+.our-portfolio-p1 {
+	font-size: 14px;
+	font-family: "OpenSans";
+	color: rgb(96, 96, 110);
+}
+
+
+.our-portfolio-main-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+
+
+/*==========================================Side nav menu*/
+
+.our-portfolio-nav-menu {
+	width: 17.5%;
+}
+
+.our-portfolio-nav-menu a {
+	text-decoration: none;
+}
+
+.our-portfolio-nav-menu h2 {
+	font-size: 30px;
+	font-family: "Montserrat";
+	color: rgb(96, 96, 110);
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.our-portfolio-select-all {
+	background-color: rgb(123, 238, 199);
+	font-size: 14px;
+	font-family: "Montserrat";
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	padding: 2px 20px;
+}
+
+.our-portfolio-nav-menu ul {
+	margin-top: 20px;
+}
+
+.our-portfolio-nav-menu ul li {
+	list-style: none;
+	margin-left: 30px;
+	font-size: 14px;
+	font-family: "Montserrat";
+	color: rgb(96, 96, 110);
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.our-portfolio-nav-menu ul li a {
+	text-decoration: none;
+	color: rgb(96, 96, 110);
+}
+
+.our-portfolio-nav-menu ul li a:hover {
+	border: 0.5px solid rgb(123, 238, 199);
+	padding: 6px 3px;
+	transition: 0.1s;
+}
+
+.our-portfolio-nav-menu ul li a:visited {
+	text-decoration: none;
+}
+
+
+/*BUG. Couldn`t change color of li via text-decoration:none.
+Thing below helped*/
+
+.our-portfolio-nav-menu ul li a:visited {
+	color: rgb(96, 96, 110);
+}
+
+
+
+
+/*=======================Styles for photo-list section*/
+
+.our-portfolio-photo-list {
+	width: 75%;
+	display: flex;
+	flex-direction: row;
+}
+
+
+.column-photo-list {
+	display: flex;
+	flex-direction: column;
+}
+
+.our-portfolio-photo-list img {
+	margin: 10px;
+}
+
+

@@ -1,0 +1,181 @@
+/* lets-work-together start */
+
+.lets-work-together{
+	background-color: #7beec7;
+	padding: 50px 0
+}
+.join-to-work{
+	flex: 1;
+}
+.join-to-work h1{
+	font-size: 30px;
+	color: #fff;
+	font-family: MontserratBold;
+	text-transform: uppercase;
+	line-height: 48px;
+	margin-bottom: 15px;
+}
+.get-in-touch{
+	display: inline-block;
+	font-size: 14px;
+	font-family: MontserratBold;
+	color: #7beec7;
+	background-color: #fff;
+	padding: 15px 31px;
+	text-transform: uppercase;
+	transform: scale(1.0,1.0);
+	-webkit-transform: scale(1.0,1.0);
+	-moz-transform: scale(1.0,1.0);
+	-ms-transform: scale(1.0,1.0);
+	-o-transform: scale(1.0,1.0);
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+	-webkit-transition-duration: 550ms;
+	transition-duration: 550ms;
+}
+.get-in-touch:hover{
+	transform: scale(1.1,1.1);
+	-webkit-transform: scale(1.1,1.1);
+	-moz-transform: scale(1.1,1.1);
+	-ms-transform: scale(1.1,1.1);
+	-o-transform: scale(1.1,1.1);
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+	-webkit-transition-duration: 550ms;
+	transition-duration: 550ms;
+}
+.stay-informed{
+	flex: 1;
+	background-color: #fff;
+	padding: 20px 25px;
+}
+.stay-informed h1{
+	font-size: 24px;
+	font-family: MontserratBold;
+	color: #60606e;
+	line-height: 36px;
+}
+
+/* lets-work-together end */
+
+
+
+
+
+
+/* footer start */
+footer{
+	display: flex;
+	flex: 0 0 auto;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	background-color: #fff;
+	padding: 50px 0;
+}
+footer nav{
+	flex: 2;
+}
+footer .social-links{
+	flex: 1;
+}
+footer .social-links {
+	text-align: right;
+}
+.reserved{
+	display: block;
+	font-size: 14px;
+	font-family: OpenSansRegular;
+	text-transform: uppercase;
+	color: #9a9a9a;
+}
+.social-group{
+	margin-top: 30px;
+}
+.social-group a{
+	color: #9a9a9a;
+	font-size: 18px;
+	margin-left: 15px;
+}
+.social-group a .fa-facebook{
+	-webkit-transition: ease-out 0.3s;
+	transition: ease-out 0.3s;
+}
+.social-group a .fa-facebook:hover{
+	color: #3b5998;
+	-webkit-transition: ease-out 0.3s;
+	transition: ease-out 0.3s;
+}
+.social-group a .fa-twitter{
+	-webkit-transition: ease-out 0.3s;
+	transition: ease-out 0.3s;
+}
+.social-group a .fa-twitter:hover{
+	-webkit-transition: ease-out 0.3s;
+	transition: ease-out 0.3s;
+	color: #1da1f2;
+}
+.social-group a .fa-youtube{
+	-webkit-transition: ease-out 0.3s;
+	transition: ease-out 0.3s;
+}
+.social-group a .fa-youtube:hover{
+	-webkit-transition: ease-out 0.3s;
+	transition: ease-out 0.3s;
+	color: #cc181e;
+}
+.social-group a .fa-linkedin-square{
+	-webkit-transition: ease-out 0.3s;
+	transition: ease-out 0.3s;
+}
+.social-group a .fa-linkedin-square:hover{
+	-webkit-transition: ease-out 0.3s;
+	transition: ease-out 0.3s;
+	color: #0084bf;
+}
+.social-group a .fa-pinterest{
+	-webkit-transition: ease-out 0.3s;
+	transition: ease-out 0.3s;
+}
+.social-group a .fa-pinterest:hover{
+	-webkit-transition: ease-out 0.3s;
+	transition: ease-out 0.3s;
+	color: #bd081c;
+}
+.social-group a .fa-instagram{
+	-webkit-transition: ease-out 0.3s;
+	transition: ease-out 0.3s;
+}
+.social-group a .fa-instagram:hover{
+	-webkit-transition: ease-out 0.3s;
+	transition: ease-out 0.3s;
+	color: #000;
+}
+footer nav a{
+	display: inline-block;
+	font-size: 14px;
+	color: #9a9a9a;
+	font-family: OpenSansRegular;
+	text-transform: uppercase;
+	position: relative;
+	padding-right: 20px;
+	-webkit-transition: ease-out 0.3s;
+	transition: ease-out 0.3s;
+}
+footer nav a:hover{
+	-webkit-transition: ease-out 0.3s;
+	transition: ease-out 0.3s;
+	color: #000;
+}
+footer nav a:after{
+	content: "-";
+	position: absolute;
+	right: 6px;
+	color: #9a9a9a;
+}
+footer nav a:last-child:after{
+	content: "";
+	display: block;
+}
+
+/* footer end */

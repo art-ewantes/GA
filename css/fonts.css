@@ -16,3 +16,12 @@
 	font-style: normal;
 	font-weight: bold;
 }
+@font-face {
+	font-family: "FontAwesome";
+	src: url("../fonts/fontawesome-webfont.eot");
+	src: url("../fonts/ontawesome-webfont.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/fontawesome-webfont.woff") format("woff"),
+	url("../fonts/fontawesome-webfontr.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

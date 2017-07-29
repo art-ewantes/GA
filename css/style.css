@@ -1,14 +1,26 @@
+@import "../libs/font-awesome/font-awesome.min.css";
+@import "subscribe-and-footer.css";
+
 *{
 	margin: 0;
 	padding: 0;
 }
+a,
+a:hover,
+a:active{
+	outline: none;
+	text-decoration: none;
+}
 .container{
+	display: flex;
+	width: 100%;
 	max-width: 1150px;
 	margin: 0 auto;
 }
 html,
 body{
 	height: 100%;
+	font-size: 16px;
 }
 body{
 	display: flex;
@@ -16,7 +28,4 @@ body{
 }
 main{
 	flex: 1 0 auto;
-}
-footer{
-	flex: 0 0 auto;
 }

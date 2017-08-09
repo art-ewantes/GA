@@ -114,11 +114,12 @@ header button {
     text-transform: uppercase;
 }
 
-.header-h1-border {
+/*.header-h1-border {
     border: 10px solid #60606e;
-}
+}*/
 
 .header-h1-border h1 {
+    border: 10px solid #60606e;
     font-size: 48px;
     font-family: "Montserratbold";
     color: #60606e;

@@ -10,9 +10,10 @@ header p {
     line-height: 1.5;
     font-family: "OpenSansRegular";
     color: #60606e;
-    
 }
 
+
+/*
 header button {
     background-color: #7beec7;
     width: 165px;
@@ -26,9 +27,10 @@ header button {
     font-family: "Montserratbold";
     font-size: 14px;
     cursor: pointer;
-    /* margin: 4px 2px;*/
-    /* padding: 20px 38px;*/
+    margin: 4px 2px;
+    padding: 20px 38px;
 }
+*/
 
 .header-image {
     width: 100%;
@@ -90,7 +92,7 @@ header button {
     top: 0;
     right: 22px;
     font-size: 36px;
-   /* margin-left: 50px;*/
+    /* margin-left: 50px;*/
 }
 
 
@@ -154,15 +156,36 @@ header button {
     padding-bottom: 2%;
 }
 
+
+/*====================Styles for BUTTON in header-history-of-agency section*/
+
+.header-green-button {
+    background-color: #7beec7;
+    width: 165px;
+    height: 50px;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-family: "Montserratbold";
+    font-size: 14px;
+    cursor: pointer;
+    position: absolute;
+    align-self: flex-end;
+    right: 0px;
+    bottom: -90px;
+}
+/*==================== END Styles for header-history-of-agency section*/
+
 /*====================GREEN BKG FOR LETTERS*/
+
 .header-green-text-background {
     box-shadow: inset rgb(123, 238, 199) 0px -22px;
     padding-bottom: 3px;
     display: inline-block;
 }
-/*====================GREEN BKG FOR LETTERS*/
 
-.header-green-button {
-    margin-top: 45%;
-    align-self: flex-end;
-}
+
+/*====================GREEN BKG FOR LETTERS*/

@@ -1,129 +1,112 @@
 /*====================Styles for our-portfolio-header section*/
 
 .our-portfolio {
-
+  margin-top: 25px;
+  font-family: "MontserratBold";
+  display: flex;
+  flex: 1 auto;
+  flex-direction: column;
 }
 
 .our-portfolio-header {
-	text-align: center;
+  text-align: center;
 }
 
 .our-portfolio-h2,
 .our-portfolio-p1 {
-	margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .our-portfolio-h2 {
-	font-size: 30px;
-	font-family: "Montserrat";
-	color: rgb(96, 96, 110);
-	font-weight: bold;
+  font-size: 30px;
+  color: rgb(96, 96, 110);
 }
 
 .our-portfolio-green-text-background {
-	box-shadow: inset rgb(123, 238, 199) 0px -16px;
-	padding-bottom: 3px;
+  box-shadow: inset rgb(123, 238, 199) 0px -16px;
+  padding-bottom: 3px;
 }
 
 .our-portfolio-p1 {
-	font-size: 14px;
-	font-family: "OpenSans";
-	color: rgb(96, 96, 110);
+  font-size: 14px;
+  font-family: "OpenSansRegular";
+  color: rgb(96, 96, 110);
 }
-
 
 .our-portfolio-main-content {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+  display: flex;
+  flex: 1 auto;
+  flex-direction: row;
+  justify-content: space-between;
 }
-
-
-
 
 /*==========================================Side nav menu*/
 
 .our-portfolio-nav-menu {
-	width: 17.5%;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .our-portfolio-nav-menu a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .our-portfolio-nav-menu h2 {
-	font-size: 30px;
-	font-family: "Montserrat";
-	color: rgb(96, 96, 110);
-	font-weight: bold;
-	margin-bottom: 20px;
+  font-size: 30px;
+  color: rgb(96, 96, 110);
+  margin-bottom: 20px;
 }
 
 .our-portfolio-select-all {
-	background-color: rgb(123, 238, 199);
-	font-size: 14px;
-	font-family: "Montserrat";
-	color: rgb(255, 255, 255);
-	font-weight: bold;
-	padding: 2px 20px;
+  background-color: rgb(123, 238, 199);
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  padding: 2px 20px;
+  display: inline-block;
 }
 
-.our-portfolio-nav-menu ul {
-	margin-top: 20px;
+.our-portfolio-nav-menu-categories {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-.our-portfolio-nav-menu ul li {
-	list-style: none;
-	margin-left: 30px;
-	font-size: 14px;
-	font-family: "Montserrat";
-	color: rgb(96, 96, 110);
-	font-weight: bold;
-	margin-bottom: 15px;
+.our-portfolio-nav-menu-categories a {
+  font-size: 14px;
+  color: rgb(96, 96, 110);
+  margin: 0px 0px 15px 30px;
+  padding: 6px 3px;
+  transition: 0.4s ease-out;
 }
 
-.our-portfolio-nav-menu ul li a {
-	text-decoration: none;
-	color: rgb(96, 96, 110);
+.our-portfolio-nav-menu-categories a:hover {
+  background-color: rgb(123, 238, 199);
+  color: rgb(56, 56, 68);
 }
-
-.our-portfolio-nav-menu ul li a:hover {
-	border: 0.5px solid rgb(123, 238, 199);
-	padding: 6px 3px;
-	transition: 0.1s;
-}
-
-.our-portfolio-nav-menu ul li a:visited {
-	text-decoration: none;
-}
-
-
-/*BUG. Couldn`t change color of li via text-decoration:none.
-Thing below helped*/
-
-.our-portfolio-nav-menu ul li a:visited {
-	color: rgb(96, 96, 110);
-}
-
-
 
 
 /*=======================Styles for photo-list section*/
 
 .our-portfolio-photo-list {
-	width: 75%;
-	display: flex;
-	flex-direction: row;
+  display: flex;
+  flex: 1 auto;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
-
 .column-photo-list {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .our-portfolio-photo-list img {
-	margin: 10px;
+  margin: 10px;
+  max-width: 100%;
 }
 
+/*=========Styles for slider=========*/
 
+.slider-container {
+  display: none;
+}

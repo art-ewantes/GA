@@ -72,8 +72,17 @@ header button {
     padding-top: 60px;
     transition: 0.5s;
 }
+.side-menu-logo {
+    padding-left: 80px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Montserratbold";
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
 
-.header-side-nav a {
+.side-menu-optons{
     padding: 10px 10px 10px 30px;
     text-decoration: none;
     font-size: 20px;
@@ -88,12 +97,22 @@ header button {
 }
 
 .header-side-nav .btn-close {
+    padding: 10px 10px 10px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Montserratbold";
+    color: #60606e;
+    display: block;
+    transition: 0.3s;
     position: absolute;
     top: 0;
     right: 22px;
     font-size: 36px;
     /* margin-left: 50px;*/
 }
+/* .header-side-nav .btn-close:hover{
+    color: #7beec7;
+} */
 
 
 /*====================Styles for header-bg section*/
@@ -175,7 +194,7 @@ header button {
     position: absolute;
     align-self: flex-end;
     right: 0px;
-    bottom: -90px;
+    /*bottom: -90px;*/
 }
 /*==================== END Styles for header-history-of-agency section*/
 
@@ -187,5 +206,90 @@ header button {
     display: inline-block;
 }
 
+/*===============MAIN SECTION WHY CHOOSE US=======================*/
+
+/*==================== styles main-why-this-agency-choose*/
+
+.main-why-this-agency-choose{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+.why-this-agency-h1 {
+    font-size: 30px;
+    font-family: "Montserratbold";
+    color: #60606e;
+    text-transform: uppercase;
+    margin-bottom:20px; 
+}
+.why-this-agency p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: "OpenSansRegular";
+    color: #60606e;
+    margin-bottom: 140px;
+    width: 750px;
+}
+
+/*==================== styles main-why-this-agency-options*/
+
+.main-why-this-agency-options{
+    min-width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.why-this-agency-aside-first {
+    margin-left:80px;
+    margin-right: 140px;
+}
+.why-this-agency-aside-second{
+    margin-right: 125px;
+}
+.why-this-agency-aside h3{
+    font-size: 18px;
+    font-family: "Montserratbold";
+    color: #60606e;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.why-this-agency-aside ul{
+    list-style-type:none;
+    margin-bottom: 60px;
+}
+.why-this-agency-aside li{
+    margin-bottom: 10px;
+}
+.why-this-agency-aside a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: "OpenSansRegular";
+    color: #b6b6b6;
+    transition: 1s ease-in;
+}
+.why-this-agency-aside a:hover {
+    color: #7beec7;
+}
 
 /*====================GREEN BKG FOR LETTERS*/
+
+.green-text-background {
+    box-shadow: inset rgb(123, 238, 199) 0px -22px;
+    padding-bottom: 3px;
+    display: inline-block;
+}
+
+
+/*==================== Why this agency section Image*/
+
+.why-this-agency-image{
+    position: relative;
+    top: -30px;
+    /* z-index: 99; */
+   
+}

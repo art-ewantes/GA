@@ -59,7 +59,7 @@ header p {
     opacity: 0.9;
     overflow-x: hidden;
     padding-top: 60px;
-    transition: 0.5s;
+    transition: 1s ease-in;
 }
 .side-menu-logo {
     padding-left: 80px;
@@ -68,7 +68,7 @@ header p {
     font-family: "Montserratbold";
     color: white;
     display: block;
-    transition: 0.3s;
+    transition: 1s ease-in;
 }
 
 .side-menu-optons{
@@ -78,7 +78,7 @@ header p {
     font-family: "Montserratbold";
     color: #60606e;
     display: block;
-    transition: 0.3s;
+    transition: 1s ease-in;
 }
 
 .header-side-nav a:hover {

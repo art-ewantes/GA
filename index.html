@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -112,38 +111,85 @@
         </section>
         <section class="why-this-agency">
         </section>
+        <!--!!!!-->
         <section class="our-portfolio">
-            <div class="container">
-                <hgroup>
-                    <h2 class="our-portfolio-h2">OUR PORTFOLIO</h2>
-                    <p class="our-portfolio-p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </hgroup>
-                <div class="our-portfolio-main-content">
-                    <div class="our-portfolio-nav-menu">
-                        <h2>CHOOSE CATEGORY</h2>
-                        <a class="our-portfolio-select-all" href="#">ALL</a>
-                        <ul>
-                            <li>WEB DESIGN</li>
-                            <li>GRAPHIC DESIGN</li>
-                            <li>FASHION</li>
-                            <li>LOGO DESIGN</li>
-                            <li>ADVERTISING</li>
-                        </ul>
-                    </div>
-                    <div class="our-portfolio-photo-list">
-                        <img src="images/photo-list-img-1.png" alt="">
-                        <img src="images/photo-list-img-2.png" alt="">
-                        <img src="images/photo-list-img-3.png" alt="">
-                        <img src="images/photo-list-img-4.png" alt="">
-                        <img src="images/photo-list-img-5.png" alt="">
-                        <img src="images/photo-list-img-6.png" alt="">
-                        <img src="images/photo-list-img-7.png" alt="">
-                        <img src="images/photo-list-img-8.png" alt="">
-                        <img src="images/photo-list-img-9.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </section>
+    <div class="container">
+      <!--=================================================== 
+				Container will be divided into 2 parts: our-portfolio-header  and our-portfolio-main-content
+				========================================================-->
+      <!--Start of our-portfolio-header -->
+      <section class="our-portfolio-header">
+        <h2 class="our-portfolio-h2"><span class="our-portfolio-green-text-background">OUR</span> PORTFOLIO</h2>
+        <p class="our-portfolio-p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </section>
+      <!-- End of our-portfolio-header -->
+      <!-- start of our-portfolio-main-content -->
+      <section class="our-portfolio-main-content">
+        <!-- ====================================================
+					our-portfolio-main-content will be divided into 2 parts: our-portfolio-nav-menu  and our-portfolio-photo-list
+					===================================-->
+        <div class="our-portfolio-nav-menu">
+          <h2>CHOOSE CATEGORY</h2>
+          <a class="our-portfolio-select-all" href="#">ALL</a>
+          <!-- green button -->
+          <div class="our-portfolio-nav-menu-categories">
+            <a href="#">WEB DESIGN</a>
+            <a href="#">GRAPHIC DESIGN</a>
+            <a href="#">FASHION</a>
+            <a href="#">LOGO DESIGN</a>
+            <a href="#">ADVERTISING</a>
+          </div>
+        </div>
+        <!-- Start of our-portfolio-photo-list container-->
+        <div class="our-portfolio-photo-list">
+          <!-- Three columns of photo-list -->
+          <div class="column-photo-list">
+            <!-- first column -->
+            <img src="images/photo-list-img-1.png" alt="">
+            <img src="images/photo-list-img-2.png" alt="">
+            <img src="images/photo-list-img-3.png" alt="">
+          </div>
+          <div class="column-photo-list">
+            <!-- second column -->
+            <img src="images/photo-list-img-4.png" alt="">
+            <img src="images/photo-list-img-5.png" alt="">
+            <img src="images/photo-list-img-6.png" alt="">
+          </div>
+          <div class="column-photo-list">
+            <!-- third column -->
+            <img src="images/photo-list-img-7.png" alt="">
+            <img src="images/photo-list-img-8.png" alt="">
+            <img src="images/photo-list-img-9.png" alt="">
+          </div>
+        </div>
+        <!-- End of our-portfolio-photo-list -->
+        <div class="slider-container">
+          <div class="slider-buttons">
+            <button class="slider-btn" onclick="plusDivs(-1)">&#10094;
+            </button>
+          </div>
+          <div class="slider-photo">
+            <img class="mySlides" onclick="plusDivs(1)" src="images/photo-list-img-1.png" alt="">
+            <img class="mySlides" onclick="plusDivs(1)" src="images/photo-list-img-2.png" alt="">
+            <img class="mySlides" onclick="plusDivs(1)" src="images/photo-list-img-3.png" alt="">
+            <img class="mySlides" onclick="plusDivs(1)" src="images/photo-list-img-4.png" alt="">
+            <img class="mySlides" onclick="plusDivs(1)" src="images/photo-list-img-5.png" alt="">
+            <img class="mySlides" onclick="plusDivs(1)" src="images/photo-list-img-6.png" alt="">
+            <img class="mySlides" onclick="plusDivs(1)" src="images/photo-list-img-7.png" alt="">
+            <img class="mySlides" onclick="plusDivs(1)" src="images/photo-list-img-8.png" alt="">
+            <img class="mySlides" onclick="plusDivs(1)" src="images/photo-list-img-9.png" alt="">
+          </div>
+          <div class="slider-buttons">
+            <button class="slider-btn" onclick="plusDivs(1)">&#10095;
+            </button>
+          </div>
+        </div>
+        <!-- slider-section-ending -->
+      </section>
+      <!-- End of our-portfolio-main-content -->
+    </div>
+    <!-- End of container for our-portfolio -->
+  </section>
         <section class="subscribe-form">
         </section>
     </main>

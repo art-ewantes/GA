@@ -54,7 +54,48 @@
 	font-family: MontserratBold;
 	color: #60606e;
 	line-height: 36px;
+	max-width: 340px;
 }
+.stay-informed p{
+	font-size:  16px;
+	color: #999999;
+	font-family: OpenSansRegular;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.subscribe-form{
+	display: flex;
+	flex-direction: row;
+}
+.subscribe-form input{
+	flex: 2;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #cdcdcd;
+	letter-spacing: 1px;
+	padding: 18px;
+	font-family: MontserratBold;
+	box-sizing: border-box;
+	border: 1px solid #e5e5e5;
+	border-right: 0;
+}
+.subscribe-form button{
+	flex: 1;
+	color: #fff;
+	font-family: MontserratBold;
+	text-transform: uppercase;
+	background-color: #7beec7;
+	border: none;
+	font-size: 14px;
+	letter-spacing: 1px;
+	cursor: pointer;
+	transition: ease-out 0.4s;
+}
+.subscribe-form button:hover{
+	background-color: #000;
+	transform: ease-out 0.4s;
+}
+
 
 /* lets-work-together end */
 

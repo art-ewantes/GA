@@ -7,6 +7,18 @@
 	margin: 0;
 	padding: 0;
 }
+input,
+input:hover,
+input:active,
+input:focus{
+	outline: none;
+	color: #999;
+}
+button,
+button:hover,
+button:active{
+	outline: none;
+}
 a,
 a:hover,
 a:active{
@@ -32,3 +44,4 @@ main{
 	flex: 1 0 auto;
 }
 @import 'media.css';
+
